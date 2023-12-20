@@ -1,0 +1,279 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Bootstrap 5 CSS via CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Font Awesome Free's Solid and Brand files -->
+    <link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+
+    <!--Static CSS files-->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo logo20">
+                <a href="">
+                    <img src="{% static 'pictures/mirlogo.svg' %}" alt="">
+                </a>
+            </div>
+
+            <div class="h_right">
+                <div class="f_search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                
+                <div class="lang_switcher">
+                    <span>
+                        <a href="">RU</a>
+                        <a href="">EN</a>
+                    </span>
+                </div>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="mb-5">
+        <div class="container" id="navTop">
+            <div class="row">
+                <div class="col-cust1">
+                    <div class="nav-top" style="margin-left: 0px;">
+                        <div class="img">
+                            <img src="{% static 'pictures/nav-top.svg' %}" alt="">
+                        </div>
+                        <div class="txt">
+                            Catalog of chemical solutions
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-cust1">
+                    <div class="nav-top">
+                        <div class="img">
+                            <img src="{% static 'pictures/nav-top1.svg' %}" alt="">
+                        </div>
+                        <div class="txt">
+                            Technological equipment
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-cust1">
+                    <div class="nav-top">
+                        <div class="img">
+                            <img src="{% static 'pictures/nav-top2.svg' %}" alt="">
+                        </div>
+                        <div class="txt">
+                            Water technologies
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-cust1">
+                    <div class="nav-top">
+                        <div class="img">
+                            <img src="{% static 'pictures/nav-top3.svg' %}" alt="">
+                        </div>
+                        <div class="txt">
+                            Digital solutions
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-cust1">
+                    <div class="nav-top" style="margin-right: 0px;">
+                        <div class="img">
+                            <img src="{% static 'pictures/nav-top4.svg' %}" alt="">
+                        </div>
+                        <div class="txt">
+                            Ecology and resource conservation saving
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="navBottom">
+            <ul>
+                <li><a href=""></a>
+                    Well construction and oil production
+                </li>
+                <li><a href=""></a>
+                    Pipeline transport of hydrocarbons
+                </li>
+                <li><a href=""></a>
+                    Oil and gas processing
+                </li>
+                <li><a href=""></a>
+                    Chemical and petrochemical industry
+                </li>
+                <li><a href=""></a>
+                    Non ferrous and ferrous metallurgy
+                </li>
+                <li><a href=""></a>
+                    Water treatment and waste management
+                </li>
+                <li><a href=""></a>
+                    Enrichment of coal, ores and minerals
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{% static 'pictures/jumbo.jpg' %}"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="jumbo-title">Lose Elimnation Technologies</h5>
+                    <span class="jumbo-divider"></span>
+                    <h2 class="jumbo-subtitle">Quickstone And CaveBlock</h2>
+                    <ul>
+                        <li>Instant and controlled increase in consistency</li>
+                        <li>Initially has a low viscosity profile (2-10 Bc)</li>
+                        <li>Highly Efficient</li>
+                        <li>Acid soluble</li>
+                        <li>Neutral to aggression</li>
+                    </ul>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="{% static 'pictures/jumbo1.png' %}"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="jumbo-title">Russian Dynamic Lightening Technology</h5>
+                    <span class="jumbo-divider"></span>
+                    <h2 class="jumbo-subtitle">Dyclar on the brightside of the water</h2>
+                    <ul>
+                        <li>The simplicity of the solution makes it unique and affordable</li>
+                        <li>Used by more than 60 enterprises in various industries</li>
+                        <li>Included in the "Directory of promising technology for water treatment and water purification" of the Ministry of Construction of the Russian Federation</li>
+                    </ul>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="{% static 'pictures/jumbo5.jpg' %}"  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="jumbo-title">We invite innovative projects to cooperate</h5>
+                    <span class="jumbo-divider"></span>
+                    <h2 class="jumbo-subtitle">Looking For New Solutions</h2>
+                    <ul>
+                        <li>In search of chemical solutions, technologies, equipment, software in the industries of the Group's prescence and new markets</li>
+                        
+                    </ul>>
+                </div>
+
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section>
+            <div class="container" id="mainTitle">
+                <div class="col-12">
+                    <h2 class="main-title">MIRRICO GROUP OF COMPANIES</h2>
+                    <br>
+
+                    <p>Mirrico group of companies — Russian group of manufacturing and service companies.</p>
+
+                    <p>Over the years, the company has deepened its chemical expertize and began to independently produce chemicals, the number of which is more than 150, and to bring new products to the market. The company offers its services to oil and gas production companies, oil refining, chemical and petrochemical, mining and metallurgical industries.</p>
+
+                    <p>The managing organization - Mirrico Management LLC is located in Kazan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid" id="footer">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="footerLogo">
+                            <a href="">
+                                <img src="{% static 'pictures/footer_logo.svg' %}" style="max-height: 65px;" alt="">
+                            </a>
+                        </div>
+                    
+                    </div>
+                    <div class="col-3">
+                        <ul>
+                            <li>About Mirrico</li>
+                            <li>Sustainabilty And Quality</li>
+                            <li>Contacts</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="h_right">
+                            <div class="f_search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            
+                            <div class="lang_switcher">
+                                <span>
+                                    <a href="">RU</a>
+                                    <a href="">EN</a>
+                                </span>
+                            </div>
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3" id="footerAdd">
+                       <ul>
+                        <li>420107, Kazan, Ostrovsky str, 84</li>
+                        <li>+7 (843 537-23-93)</li>
+                        <li>info@mirrico.com</li>
+                        <li>Write to us</li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row" id="footerBottom">
+                    <div class="col-12 pt-2">
+                        <p>&copy; 2000-2023 - Mirrico Group of Companies</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+</body>
+
+    
+
+
+
+    
+     <!--Bootstrap 5 JS via CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</html>
