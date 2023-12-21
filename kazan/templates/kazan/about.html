@@ -1,0 +1,197 @@
+{% extends 'kazan/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section>
+    <div class="container-fluid" id="aboutTitle">
+        <div class="row">
+            <div class="col-12">
+                <h2>ABOUT US - MIRRICO</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 pt-3">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="{% url 'homepage' %}">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img src="{% static 'pictures/about.jpg' %}" alt="">
+            </div>
+            <div class="col-6">
+                <p>Mirrico - is a Russian group of manufacturing and services companies. The main business activities are production and supply of various-application chemical agents, engineering assistance for customers on issues of chemical solutions application, maintenance services.</p>
+
+                <p>A history of the company has been started since the year of 2000, and three historical stages may be distinguished:</p>
+
+                <p>— Formulation of own line of chemical agents for oil production technologies. For the initial five years the company has been consequently expanding its products range, striving for becoming an integrated supplier. In 2005 major business assets were purchased.</p>
+
+                <p>- In 2006 we launched service strategy execution. Various maintenance services were offered to oil and gas production, refining, chemical and petrochemical, mining and metal companies.</p>
+            </div>
+
+            <div class="col-12 pt-3">
+                <p>— Owing to strong investments in research and developments, initiated from the year of 2009, Mirrico started producing of unique products and technologies being ahead of market competitors. Efficiency of our products frequently exceeds customers' requirements. Having created conditions for advanced chemical solutions, the company proceeds to strengthening of its own production capacity. Nowadays we set ourselves a task to offer consumers the best products at the lowest prices.</p>
+
+                <p>Obtained expertise has allowed us to get not only own business segment, but also to learn a lot about our clients. All of this plus stored knowledge in various business areas, cohesive team, scientific and creative, to some extent, approach to tasks solving, allowed us to guarantee efficiency and environmental safety of our offered solutions - from development of unique agent and technology to IT-solutions and even robotics technology.</p>
+
+                <p>Having ambition to be the best, Mirrico pays considerable attention to innovations, considering that exactly innovations present itself a pledge of technological superiority and prosperity.</p>
+
+                <p>In the balance of the company there are 12 patents, 51 brand identity certificates.</p>
+
+                <p>ISO 9001:2015 quality management system, implemented and operating in all affiliated companies of the group, confirms stability and guarantees high quality of the products.</p>
+
+                <a href="{% static 'pdf/buklet.pdf' %}" class="pdf" target="_blank">
+                    <span>
+                        Booklet of Mirrico
+                        <br>
+                        group of companies
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container" id="learn">
+        <div class="row">
+            <div class="col-12">
+                <h2>LEARN MORE ABOUT US!</h2>
+            </div>
+
+            <div class="col-cust2">
+                <div class="textLeft"><span>49</span></div>
+
+                <div class="imgRight"><img src="{% static 'pictures/learn.png' %}" alt="" class="red"></div>
+
+                <br>
+
+                <div class="learnPar pt-4"><p>markets cover complex solutions of the company Mirrico</p></div>
+            </div>
+
+            <div class="col-cust2">
+                <div class="textLeft"><span>10</span></div>
+
+                <div class="imgRight"><img src="{% static 'pictures/learn1.png' %}" alt="" class="red"></div>
+
+                <br>
+
+                <div class="learnPar pt-4"><p>industrial sectors, where the company Mirrico provides it's services</p></div>
+            </div>
+
+            <div class="col-cust2">
+                <div class="textLeft"><span>1000</span></div>
+
+                <div class="imgRight"><img src="{% static 'pictures/learn2.png' %}" alt="" class="red"></div>
+
+                <br>
+
+                <div class="learnPar pt-4"><p>employees work in the company Mirrico</p></div>
+            </div>
+
+            <div class="col-cust2">
+                <div class="textLeft"><span>239</span></div>
+
+                <div class="imgRight"><img src="{% static 'pictures/learn3.png' %}" alt="" class="red"></div>
+
+                <br>
+
+                <div class="learnPar pt-4"><p>types of products and services in solution portfolios</p></div>
+            </div>
+
+            <div class="col-cust3">
+                <div class="textLeft"><img src="{% static 'pictures/learn4.png' %}" alt="" class="red"></div>
+
+                <div class="imgRight"><img src="{% static 'pictures/learn5.png' %}" alt="" class="red"></div>
+
+                <br>
+
+                <div class="learnPar pt-4"><p>It is one of the three leading suppliers of oilfield chemistry and services</p></div>
+            </div>
+        </div>
+        <br><br>
+        <hr>
+    </div>
+</section>
+
+<section>
+    <div class="container" id="values">
+        <div class="row">
+            <div class="col-12">
+                <h2>Values Mirrico</h2>
+            </div>
+
+            <div class="col-3">
+                <div><img src="{% static 'pictures/values.png' %}" alt=""></div>
+                <div><h5>Knowledge</h5></div>
+                <div><p>Full understanding of customers technological peculiarities.</p></div>
+            </div>
+
+            <div class="col-3">
+                <div><img src="{% static 'pictures/values1.png' %}" alt=""></div>
+                <div><h5>EFFICIENCY</h5></div>
+                <div><p>Seeking for the best approach to problem solving in terms of economic efficiency and environmental safety.</p></div>
+            </div>
+
+            <div class="col-3">
+                <div><img src="{% static 'pictures/values2.png' %}" alt=""></div>
+                <div><h5>INDIVIDUAL SOLUTIONS</h5></div>
+                <div><p>Customer's choice is not only a guideline for actions, but also a start of creative process, resulting in a great financial result and psychic income of all parties.</p></div>
+            </div>
+
+
+            <div class="col-3">
+                <div><img src="{% static 'pictures/values2.png' %}" alt=""></div>
+                <div><h5>PACKAGE APPROACH</h5></div>
+                <div><p>Owing to activities in various fields and sectors, we have an opportunity to see all entirety of customer's chain. It is our tremendous advantage in selection of solutions.</p></div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</section>
+
+<section>
+    <div class="container" id="customer">
+        <div class="row pb-5">
+            <div class="col-12 pb-5">
+                <h2>CUSTOMERS OF MIRRICO GROUP OF COMPANIES</h2>
+            </div>
+
+            <div class="col-cust3">
+                <img src="{% static 'pictures/customer.png' %}" alt="">
+            </div>
+            <div class="col-cust3">
+                <img src="{% static 'pictures/customer1.png' %}" alt="">
+            </div>
+            <div class="col-cust3">
+                <img src="{% static 'pictures/customer2.png' %}" alt="">
+            </div>
+            <div class="col-cust3">
+                <img src="{% static 'pictures/customer3.png' %}" alt="">
+            </div>
+            <div class="col-cust3">
+                <img src="{% static 'pictures/customer4.png' %}" alt="">
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+
+{% endblock %}
