@@ -6,3 +6,6 @@ def home(request):
 
 def about(request):
     return render(request, 'kazan/about.html')
+
+def quality(request):
+    return render(request, 'kazan/quality.html')

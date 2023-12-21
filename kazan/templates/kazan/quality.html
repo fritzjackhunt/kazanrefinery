@@ -1,0 +1,96 @@
+{% extends 'kazan/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section>
+    <div class="container-fluid" id="qualityTitle">
+        <div class="row">
+            <div class="col-12">
+                <h2>RELIABILITY AND QUALITY</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container" id="breadcrumbs">
+        <div class="row">
+            <div class="col-12 pt-3">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="{% url 'homepage' %}">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Sustainabilty And Quality</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="container" id="qualitySub">
+        <div class="row">
+            <div class="col-4" id="qualityImgSm">
+                <img src="{% static 'pictures/quality.jpg' %}" alt="" class="imgSm">
+            </div>
+            <div class="col-8">
+                <h5 class="qualitySubtitle">INTELLECTUAL PROPERTY</h5>
+                <p class="qualityText">High experience, focus on efficient chemical solutions, interest in advances allow us to respond without delay to the market inquiries, offering innovative responses to the branch tasks.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="qualitySub">
+        <div class="row">           
+            <div class="col-8">
+                <h5 class="qualitySubtitle">ENVIRONMENTAL CARE</h5>
+                <p class="qualityText">Mirrico group of companies is interested in mitigation of environmental emergency situation risks which may occur in the process of services provision and goods production. In order to ensure the desired results the company has developed an environmental protection policy, which observation is strictly controlled.</p>
+            </div>
+            <div class="col-4" id="qualityImgSm">
+                <img src="{% static 'pictures/quality1.jpg' %}" alt="" class="imgSm">
+            </div>
+          
+        </div>
+    </div>
+
+    <div class="container" id="qualitySub">
+        <div class="row">
+            <div class="col-4" id="qualityImgSm">
+                <img src="{% static 'pictures/quality3.png' %}" alt="" class="imgSm">
+            </div>
+            <div class="col-8">
+                <h5 class="qualitySubtitle">PERSONNEL CARE</h5>
+                <p class="qualityText">Issues of safety - maintenance of health and life of employees - are resolving in the company both at the administrative level and at the level of personal responsibility of each employee.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="qualitySub">
+        <div class="row">           
+            <div class="col-8">
+                <h5 class="qualitySubtitle">QUALITY MANAGEMENT SYSTEM</h5>
+                <p class="qualityText">The implemented and functioning quality management system (QMS) of ISO 9001 standard guarantees consistently high quality of products and services of Mirrico Group of Companies.</p>
+            </div>
+            <div class="col-4" id="qualityImgSm">
+                <img src="{% static 'pictures/quality4.jpg' %}" alt="" class="imgSm">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="qualitySub">
+        <div class="row">
+            <div class="col-4" id="qualityImgSm">
+                <img src="{% static 'pictures/quality5.jpg' %}" alt="" class="imgSm">
+            </div>
+            <div class="col-8">
+                <h5 class="qualitySubtitle">KEY INDICATORS</h5>
+                <p class="qualityText">Mirrico group of companies annually expands the sphere of its market presence by way of launching new products and services, as well as to new geographical regions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock %}

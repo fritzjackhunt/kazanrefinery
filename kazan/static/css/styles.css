@@ -217,7 +217,8 @@ h2.main-title {
     ABOUT US STYLES =================================================================   
 */
 
-#aboutTitle {
+#aboutTitle,
+#qualityTitle {
     background-color: #f1f1f1;
     min-height: 250px;
     min-width: 260px;
@@ -225,7 +226,8 @@ h2.main-title {
     padding-top: 40px;
 }
 
-#aboutTitle h2 {
+#aboutTitle h2,
+#qualityTitle h2 {
     color: #333;
     font-size: 21PX;
     font-weight: 700;
@@ -315,6 +317,55 @@ a.pdf {
     line-height: 1.4rem;
 }
 
+
+/* =================================================================
+
+    SUSTAINABILTY AND QUALITY STYLES
+
+    ================================================================
+
+*/
+
+#qualityImgSm {
+    width: 240px;
+    float: left;
+    padding-right: 33px;
+    padding-left: 0;
+    line-height: 0;
+    font-size: 16px;
+}
+
+#breadcrumbs {
+    margin: 0 auto 25px auto;
+    line-height: 22px;
+}
+
+.imgSm {
+    border: 3px solid #dddcdc;
+    max-width: 100%;
+}
+
+#qualitySub {
+    padding-top: 42px;
+    border-top: 1px solid #dfdfdf;
+    margin-bottom: 42px;
+}
+
+.qualitySubtitle {
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #d50c02;
+}
+
+.qualityText {
+    line-height: 1.4rem;
+    color: #333;
+}
 
 
 
